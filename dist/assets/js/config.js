@@ -9,11 +9,11 @@ window.BRS_CONFIG = {
   contact: {
     siteLabel: "brs-estrutura-em-controle.raul-losbuenos.chatgpt.site",
     siteUrl: "https://brs-estrutura-em-controle.raul-losbuenos.chatgpt.site",
-    whatsappLabel: "INSERIR WHATSAPP",
-    whatsappUrl: "https://wa.me/5500000000000",
-    emailLabel: "INSERIR E-MAIL",
-    emailUrl: "mailto:contato@seudominio.com.br",
-    placeholdersActive: true
+    whatsappLabel: "+55 43 9679-9029",
+    whatsappUrl: "https://wa.me/554396799029",
+    emailLabel: "brs.administracao@gmail.com",
+    emailUrl: "mailto:brs.administracao@gmail.com",
+    placeholdersActive: false
   },
   services: [
     {
