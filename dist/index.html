@@ -12,16 +12,17 @@
   <header class="site-header">
     <div class="shell header-inner">
       <a class="brand-link" href="#inicio" aria-label="BRS Administração de Obras - início">
-        <img src="./assets/branding/logo-reverso.svg" alt="BRS Administração de Obras">
+        <img class="brand-symbol" src="./assets/branding/simbolo-branco.svg" alt="">
+        <span class="brand-wordmark"><strong>BRS</strong><small>ADMINISTRAÇÃO DE OBRAS</small></span>
       </a>
       <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false" data-menu-button></button>
       <nav class="site-nav" aria-label="Navegação principal" data-nav>
-        <a href="#sobre">A BRS</a>
-        <a href="#solucoes">Soluções</a>
-        <a href="#metodo">Método</a>
-        <a href="./portfolio/">Portfólio</a>
-        <a href="./propostas/">Propostas</a>
-        <a class="button small" href="./orcamento/">Solicitar análise</a>
+        <a href="#sobre" data-nav-section="sobre">A BRS</a>
+        <a href="#solucoes" data-nav-section="solucoes">Soluções</a>
+        <a href="#metodo" data-nav-section="metodo">Método</a>
+        <a href="./portfolio/" data-nav-section="portfolio" data-nav-route="portfolio">Portfólio</a>
+        <a href="./propostas/" data-nav-route="propostas">Propostas</a>
+        <a class="button small" href="./orcamento/" data-nav-route="orcamento">Solicitar análise</a>
       </nav>
     </div>
   </header>
@@ -113,8 +114,7 @@
       <div class="shell method-grid">
         <div class="method-intro">
           <p class="eyebrow">Do cenário ao ativo entregue</p>
-          <h2 class="sr-only">Método que gera previsibilidade</h2>
-          <img class="title-art light" src="./assets/images/titles/metodo-que-gera-previsibilidade-white.png" alt="Método que gera previsibilidade">
+          <h2 class="display-title method-title">Método que gera previsibilidade</h2>
           <p class="doc-muted">A BRS conecta planejamento, pessoas, fornecedores e documentação em uma linha única de controle.</p>
         </div>
         <ol class="method-list">
@@ -191,7 +191,7 @@
   <footer class="site-footer">
     <div class="shell">
       <div class="footer-grid">
-        <div><img class="footer-logo" src="./assets/branding/logo-reverso.svg" alt="BRS Administração de Obras"><p data-tagline></p></div>
+        <div><img class="footer-logo" src="./assets/branding/logo-reverso.svg" alt="BRS Administração de Obras"></div>
         <div><h3>Navegação</h3><a href="#sobre">A BRS</a><a href="#solucoes">Soluções</a><a href="#metodo">Método</a><a href="./portfolio/">Portfólio</a></div>
         <div><h3>Comercial</h3><a href="./propostas/">Proposta-modelo</a><a href="./orcamento/">Solicitar orçamento</a><a href="./contato/">Contato</a><a href="./links/">Links</a></div>
       </div>
