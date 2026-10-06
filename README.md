@@ -1,3 +1,5 @@
-# BRS Site
+# BRS | Site
 
-Repositório do site BRS. A estrutura inicial e os arquivos organizados estão sendo preparados em uma branch de configuração.
+Base organizada do site BRS, com os arquivos oficiais de identidade separados dos assets preparados para publicação.
+
+Consulte [README-site.md](README-site.md) para estrutura, edição e orientações de publicação.

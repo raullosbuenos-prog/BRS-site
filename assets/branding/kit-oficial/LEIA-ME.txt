@@ -1,0 +1,17 @@
+BRS ADMINISTRAÇÃO DE OBRAS — KIT OFICIAL
+
+Este pacote reúne os arquivos derivados diretamente das artes finais aprovadas.
+Nenhuma geometria foi redesenhada. As versões técnicas preservam proporção, recortes e vazios do arquivo mestre.
+
+PALETA
+Preto: #000000
+Dourado: #9D7436
+Cinza: #797979
+Branco de suporte: #FFFFFF
+
+ORIENTAÇÃO DE USO
+• Use o arquivo mestre em aplicações institucionais.
+• Use o reverso sobre fundos escuros.
+• Use versões monocromáticas quando houver limitação de reprodução.
+• Não distorça, incline, comprima, altere as cores ou reconstrua as letras.
+• Consulte o Manual Mestre para respiro, redução e hierarquia.
