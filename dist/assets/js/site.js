@@ -35,6 +35,35 @@
     if (config.contact.placeholdersActive && type !== "site") link.dataset.placeholder = "true";
   });
 
+  const navItems = [...document.querySelectorAll("[data-nav-section], [data-nav-route]")];
+  const clearCurrentNav = () => navItems.forEach((link) => link.removeAttribute("aria-current"));
+  const markCurrentNav = (link, value) => {
+    clearCurrentNav();
+    link.setAttribute("aria-current", value);
+  };
+  const currentPath = window.location.pathname.replace(/index\.html$/, "").replace(/\/$/, "");
+  const routeItem = navItems.find((link) => {
+    const route = link.dataset.navRoute;
+    return route && currentPath.endsWith("/" + route);
+  });
+  if (routeItem) markCurrentNav(routeItem, "page");
+
+  const sections = navItems
+    .filter((link) => link.dataset.navSection)
+    .map((link) => ({ link, section: document.getElementById(link.dataset.navSection) }))
+    .filter((item) => item.section);
+  if (sections.length && "IntersectionObserver" in window) {
+    const sectionObserver = new IntersectionObserver((entries) => {
+      const active = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (!active) return;
+      const item = sections.find(({section}) => section === active.target);
+      if (item) markCurrentNav(item.link, "location");
+    }, { rootMargin: "-18% 0px -65% 0px", threshold: [0, .15, .35] });
+    sections.forEach(({section}) => sectionObserver.observe(section));
+  }
+
   document.querySelectorAll("[data-route-link]").forEach((link) => {
     const route = link.dataset.routeLink || "";
     link.href = `${config.contact.siteUrl.replace(/\/$/, "")}/${route.replace(/^\//, "")}`;
