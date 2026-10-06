@@ -1,0 +1,11 @@
+BRS — TIPOGRAFIA OFICIAL
+
+Títulos: Ethnocentric Regular
+Fonte: https://www.dafont.com/ethnocentric.font
+Uso recomendado: títulos, chamadas curtas, índices e destaques.
+Observação: não redistribuir nem incorporar o arquivo da fonte em templates editáveis sem licença específica.
+
+Texto corrido: Roboto
+Fonte: https://fonts.google.com/specimen/Roboto
+Pesos recomendados: Regular 400, Italic 400, Bold 700 e Bold Italic 700.
+Uso recomendado: textos, tabelas, legendas, propostas, relatórios e interfaces.
