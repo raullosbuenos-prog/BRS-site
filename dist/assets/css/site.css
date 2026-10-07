@@ -173,7 +173,7 @@ section[id] { scroll-margin-top: 96px; }
 .display-title {
   margin: 0;
   max-width: 900px;
-  font-size: clamp(2.4rem, 6vw, 5.5rem);
+  font-size: clamp(2.45rem, 4.75vw, 4.8rem);
   line-height: .95;
   letter-spacing: -.04em;
   text-transform: uppercase;
@@ -562,6 +562,7 @@ section[id] { scroll-margin-top: 96px; }
   .fit-line { width: auto; max-width: 100%; transform: none !important; }
   .fitted-title { line-height: .93; }
   .title-portfolio .line-2 { font-size: 1.18em; letter-spacing: 0; }
+  .contact-copy br { display: none; }
   .grid-2, .grid-3, .grid-4, .form-grid, .footer-grid { grid-template-columns: 1fr; }
   .method-item { grid-template-columns: 48px minmax(0, 1fr); gap: 10px 16px; min-height: 0; padding: 22px 0; }
   .method-item span:first-child { grid-row: span 2; align-self: center; }
