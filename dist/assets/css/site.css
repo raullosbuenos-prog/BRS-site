@@ -96,7 +96,7 @@ button, input, select, textarea { font: inherit; }
 }
 .brand-menu-logo {
   display: block;
-  width: clamp(220px, 20vw, 286px);
+     width: clamp(200px, 200vw, 1px);
   max-height: 54px;
   object-fit: contain;
   object-position: left center;
